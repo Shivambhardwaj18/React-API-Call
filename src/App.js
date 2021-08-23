@@ -14,7 +14,6 @@ class App extends Component {
     );
   }
 }
-
 const mapStateToProps = (state) => {
   return {
     data: state.data,
