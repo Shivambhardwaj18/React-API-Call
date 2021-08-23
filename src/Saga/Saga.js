@@ -10,6 +10,7 @@ function* fetchData() {
       "https://newsapi.org/v2/everything?q=Apple&from=2021-08-22&sortBy=popularity&apiKey=c24429aa962d4771910ffbaff2ba5039"
     )
     .then((data) => {
+      alert("API Called");
       console.log(data);
     });
 
